@@ -1,0 +1,13 @@
+name: SimpleRules
+version: ${project.version}
+main: me.raimuakuna.simplerules.SimpleRules
+api-version: 1.15
+authors: [raimuakuna]
+description: A simple rules plugin
+commands:
+  rules:
+    description: The server's rules
+    usage: /rules
+  rules reload:
+    description: Reload the rules.
+    usage: /rules reload
